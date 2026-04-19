@@ -14,6 +14,7 @@ venv/
 # Archivos del sistema
 .DS_Store
 Thumbs.db
+*:Zone.Identifier
 
 # Archivos temporales
 *.tmp
