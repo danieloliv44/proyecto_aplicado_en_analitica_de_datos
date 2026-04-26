@@ -1,0 +1,44 @@
+name: geo_cuda
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+
+  # Núcleo científico
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - jupyterlab
+  - ipykernel
+
+  # Geoespacial vectorial
+  - geopandas
+  - shapely
+  - pyproj
+  - fiona
+  - pyogrio
+  - rtree
+
+  # Raster / NetCDF / clima
+  - xarray
+  - netcdf4
+  - h5netcdf
+  - dask
+  - rioxarray
+  - rasterio
+  - rasterstats
+  - affine
+
+  # Archivos y formatos
+  - openpyxl
+  - pyarrow
+  - fastparquet
+
+  # Utilidades
+  - tqdm
+  - requests
+  - ipywidgets
