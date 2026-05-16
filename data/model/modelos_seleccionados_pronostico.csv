@@ -1,298 +1,109 @@
-municipio,variable,modelo,mae,rmse,sesgo,modelo_seleccionado
-Aguadas,et_potencial_mm,sarima,5.491693465682178,7.088198103538664,-1.3960674164791687,sarima
-Aguadas,et_real_mm,seasonal_naive,9.969840480831708,14.409142736294791,-0.254827322936969,seasonal_naive
-Aguadas,ndvi_max,random_forest_lags,0.003046625834699813,0.004088123599852446,-0.00031524652224591723,random_forest_lags
-Aguadas,ndvi_mean,seasonal_naive,0.04328277712872476,0.05091587081458539,-0.02154474611911704,seasonal_naive
-Aguadas,ndvi_min,random_forest_lags,0.025371651527916813,0.039998491790901716,-0.00919829903333659,random_forest_lags
-Aguadas,precip_max_mm,random_forest_lags,11.232742687834461,18.652188609778634,-4.83191108387138,random_forest_lags
-Aguadas,precip_mean_mm,seasonal_naive,1.942968191907252,3.37780318788592,-0.26392184137564356,seasonal_naive
-Aguadas,precip_mm,seasonal_naive,57.99110430945576,96.97937681544592,-6.571693796237555,seasonal_naive
-Aguadas,temp_max,sarima,0.9774025195192715,1.1182237893909182,0.01568492617339751,sarima
-Aguadas,temp_mean,random_forest_lags,0.5660731293052611,0.7585700887556186,-0.33650461852327385,random_forest_lags
-Aguadas,temp_min,sarima,0.3983157543815965,0.5130223154350532,0.1378480887718658,sarima
-Anserma,et_potencial_mm,sarima,5.876679650513481,7.249015703763733,-3.8141527584816615,sarima
-Anserma,et_real_mm,sarima,5.926220880474378,7.210870680729737,-0.08767037638404969,sarima
-Anserma,ndvi_max,random_forest_lags,0.009366210978029836,0.01437637174319875,0.0008204427816819438,random_forest_lags
-Anserma,ndvi_mean,seasonal_naive,0.03523659267233552,0.047994012944522255,-0.006805982747488359,seasonal_naive
-Anserma,ndvi_min,seasonal_naive,0.02290228295096716,0.03192040871684758,0.007092746288798918,seasonal_naive
-Anserma,precip_max_mm,seasonal_naive,12.12018118529677,17.43873476590829,-4.089891071104704,seasonal_naive
-Anserma,precip_mean_mm,seasonal_naive,1.896412956125769,2.906870840344368,-0.2598986451422878,seasonal_naive
-Anserma,precip_mm,seasonal_naive,56.670570105045655,84.01635651214185,-6.8245076581618775,seasonal_naive
-Anserma,temp_max,random_forest_lags,0.6715476422618103,0.7855616656244228,-0.2622550834466452,random_forest_lags
-Anserma,temp_mean,sarima,0.3665147030369392,0.4297404587970287,-0.01761147040328372,sarima
-Anserma,temp_min,sarima,0.39225321936577323,0.45940909356578236,-0.12617611988174277,sarima
-Aranzazu,et_potencial_mm,sarima,6.028605950855884,7.4590558630847665,-4.1344841524349585,sarima
-Aranzazu,et_real_mm,sarima,5.981064425114737,8.353170985809186,0.9493408447307662,sarima
-Aranzazu,ndvi_max,seasonal_naive,0.008748144399460183,0.016324378520395547,0.001958738191632926,seasonal_naive
-Aranzazu,ndvi_mean,random_forest_lags,0.08528821566002315,0.09777546989586952,-0.06003431285990225,random_forest_lags
-Aranzazu,ndvi_min,seasonal_naive,0.032572300944669355,0.0679240444294949,-0.024039979757085016,seasonal_naive
-Aranzazu,precip_max_mm,sarima,11.412668970001883,15.158266413951454,-3.014813931364997,sarima
-Aranzazu,precip_mean_mm,seasonal_naive,1.5489634382484647,2.5993278329410634,-0.401745042718552,seasonal_naive
-Aranzazu,precip_mm,seasonal_naive,46.04335625638362,74.6852633144839,-11.166293377991488,seasonal_naive
-Aranzazu,temp_max,seasonal_naive,0.8086937574497822,0.9699013215909973,-0.32640544107943054,seasonal_naive
-Aranzazu,temp_mean,sarima,0.4099826131952232,0.5361325274455496,-0.22716415023358436,sarima
-Aranzazu,temp_min,seasonal_naive,0.45216961594256533,0.5648097865576996,-0.21914650534159655,seasonal_naive
-Belalcázar,et_potencial_mm,sarima,5.958916851670377,7.246954437085857,-3.9323797151389854,sarima
-Belalcázar,et_real_mm,sarima,5.694155967859882,6.721922102618006,-2.4508671088771905,sarima
-Belalcázar,ndvi_max,seasonal_naive,0.011988191632928503,0.018663057864441213,0.0034552631578947304,seasonal_naive
-Belalcázar,ndvi_mean,seasonal_naive,0.03223494082420296,0.042368808129623764,0.005284361161296705,seasonal_naive
-Belalcázar,ndvi_min,random_forest_lags,0.08182929309761293,0.12054558014440868,-0.016537931614009502,random_forest_lags
-Belalcázar,precip_max_mm,seasonal_naive,10.215329022147294,13.58549700333375,-2.3734438609244153,seasonal_naive
-Belalcázar,precip_mean_mm,random_forest_lags,1.9313675886650477,2.7221327102469957,-0.32583866666817857,random_forest_lags
-Belalcázar,precip_mm,random_forest_lags,57.533130120436375,79.70020613577185,-6.196051851843465,random_forest_lags
-Belalcázar,temp_max,random_forest_lags,1.2538493729640927,1.480082096859884,-0.5617791569080717,random_forest_lags
-Belalcázar,temp_mean,random_forest_lags,0.3038772028480655,0.3698622559841138,-0.1371020812887115,random_forest_lags
-Belalcázar,temp_min,sarima,0.42711481450656436,0.5001290778443309,-0.2172316999649041,sarima
-Chinchiná,et_potencial_mm,sarima,5.847986096447478,7.266517611595487,-3.842087499531232,sarima
-Chinchiná,et_real_mm,sarima,5.994662397922561,7.58084793119738,-2.838612334675606,sarima
-Chinchiná,ndvi_max,seasonal_naive,0.01345638776428252,0.01776845965985612,-0.0012101889338731635,seasonal_naive
-Chinchiná,ndvi_mean,seasonal_naive,0.039076594797409284,0.04919829633206582,-0.017808723210257314,seasonal_naive
-Chinchiná,ndvi_min,sarima,0.054647282207522935,0.06657363938748236,-0.011480034808655146,sarima
-Chinchiná,precip_max_mm,sarima,11.782775215817127,19.31584485069358,-2.0869140416438317,sarima
-Chinchiná,precip_mean_mm,sarima,2.080923085969773,3.3074461651730642,-0.4698619226297135,sarima
-Chinchiná,precip_mm,sarima,62.16478481399289,95.47333461726545,-12.855232589685052,sarima
-Chinchiná,temp_max,sarima,1.0969563452735058,1.4965612758170657,-0.5160113125138474,sarima
-Chinchiná,temp_mean,sarima,0.30245519794119385,0.3521322856196339,0.08414366889691093,sarima
-Chinchiná,temp_min,sarima,0.33705377917503443,0.4155760680945692,-0.1615442233666529,sarima
-Filadelfia,et_potencial_mm,sarima,6.54355340537294,8.126873588351557,-4.560473365282431,sarima
-Filadelfia,et_real_mm,sarima,8.762652175679348,12.570289838734006,1.3552053891443163,sarima
-Filadelfia,ndvi_max,seasonal_naive,0.020750955915429605,0.03224250590964938,0.008190519568151153,seasonal_naive
-Filadelfia,ndvi_mean,seasonal_naive,0.039588317948887466,0.048169918836338546,-0.009394162670611751,seasonal_naive
-Filadelfia,ndvi_min,seasonal_naive,0.05836481106612685,0.10154992555521092,-0.026325877192982457,seasonal_naive
-Filadelfia,precip_max_mm,sarima,12.57111598680921,18.711300193225366,-6.309187353123539,sarima
-Filadelfia,precip_mean_mm,seasonal_naive,1.7844266670189997,3.0198259532121794,-0.3565274573299618,seasonal_naive
-Filadelfia,precip_mm,seasonal_naive,53.069299921593476,86.52104708854777,-9.592412245690197,seasonal_naive
-Filadelfia,temp_max,random_forest_lags,0.8250114047355778,1.0364059598857729,-0.48097772949579287,random_forest_lags
-Filadelfia,temp_mean,sarima,0.47611025964723525,0.6015824599250462,-0.31482227656834666,sarima
-Filadelfia,temp_min,sarima,0.4384399851853219,0.5689119117392469,-0.27523086497304045,sarima
-La Dorada,et_potencial_mm,sarima,9.369763172087099,10.74379005961149,-6.823000242540897,sarima
-La Dorada,et_real_mm,sarima,16.482631381650503,22.600234961348903,-1.0490476085300182,sarima
-La Dorada,ndvi_max,random_forest_lags,0.017251669976430684,0.02477817906748956,-0.004581836906409957,random_forest_lags
-La Dorada,ndvi_mean,seasonal_naive,0.03583747766597925,0.05775554831843674,-0.0027586267950033974,seasonal_naive
-La Dorada,ndvi_min,random_forest_lags,0.07006862492087294,0.08997627206556846,0.03906882191800964,random_forest_lags
-La Dorada,precip_max_mm,random_forest_lags,9.718771679052676,12.554622607152654,-4.8761219251161805,random_forest_lags
-La Dorada,precip_mean_mm,sarima,2.0234617255066736,2.688837580726571,-0.15684337288322053,sarima
-La Dorada,precip_mm,sarima,60.70262422342098,79.09496213504823,-3.6152377471156045,sarima
-La Dorada,temp_max,seasonal_naive,1.4248249777744266,1.9107658070780968,-0.6781357302015688,seasonal_naive
-La Dorada,temp_mean,random_forest_lags,0.8607208549557234,1.0138720069454625,-0.13131708368608266,random_forest_lags
-La Dorada,temp_min,random_forest_lags,0.5297448039901129,0.7685226287830653,-0.42414460783766117,random_forest_lags
-La Merced,et_potencial_mm,sarima,7.084335244172363,8.714481220383712,-5.266019939574166,sarima
-La Merced,et_real_mm,seasonal_naive,10.199002882599585,13.681897444238283,-1.431267470300494,seasonal_naive
-La Merced,ndvi_max,seasonal_naive,0.01957095141700406,0.02470532636581199,-0.005983771929824539,seasonal_naive
-La Merced,ndvi_mean,seasonal_naive,0.037497969107478366,0.04649788199069096,-0.0051309358242946825,seasonal_naive
-La Merced,ndvi_min,seasonal_naive,0.06256821862348177,0.10444288788422351,-0.011985897435897432,seasonal_naive
-La Merced,precip_max_mm,sarima,10.588978830987255,15.56841837854122,-1.121282299808353,sarima
-La Merced,precip_mean_mm,seasonal_naive,1.7179877792364204,2.954276860908805,-0.28053617918856527,seasonal_naive
-La Merced,precip_mm,seasonal_naive,51.04936780150763,84.58976318662285,-7.258701833508003,seasonal_naive
-La Merced,temp_max,random_forest_lags,0.8721579729784203,0.9909441653577018,-0.0014476180667955146,random_forest_lags
-La Merced,temp_mean,sarima,0.4922485884735047,0.6137436937347476,-0.050231349065189744,sarima
-La Merced,temp_min,sarima,0.3545806179795309,0.4992643388510826,-0.16610964118010713,sarima
-Manizales,et_potencial_mm,sarima,4.708289369175715,5.945476279283194,-0.35554943474611217,sarima
-Manizales,et_real_mm,sarima,4.741650654679247,5.399593844331648,-1.4822537961580096,sarima
-Manizales,ndvi_max,sarima,0.0016180923729659812,0.0018543044329013038,-0.000980359492674836,sarima
-Manizales,ndvi_mean,sarima,0.0733001370259175,0.08269238489564026,-0.06223191250067636,sarima
-Manizales,ndvi_min,sarima,0.019080873448080703,0.024669562821523845,-0.012452785423267361,sarima
-Manizales,precip_max_mm,sarima,10.764315948522558,15.384285260877208,-0.3626460899916104,sarima
-Manizales,precip_mean_mm,sarima,1.5742064465715755,2.5152166652580688,-0.12545524962338106,sarima
-Manizales,precip_mm,sarima,47.07485835404726,72.55213004683337,-2.34083767520918,sarima
-Manizales,temp_max,sarima,0.7554570163497052,0.9255616115993932,-0.31806543714665875,sarima
-Manizales,temp_mean,sarima,0.3628956297562214,0.4660816584925573,-0.28093675602395796,sarima
-Manizales,temp_min,sarima,0.43657349578248605,0.5495154912677794,-0.2029736604017501,sarima
-Manzanares,et_potencial_mm,sarima,6.42196850829971,7.8942775180746825,-4.25739085141308,sarima
-Manzanares,et_real_mm,sarima,6.769080454334914,10.296061138473094,-0.5042532942682438,sarima
-Manzanares,ndvi_max,sarima,0.007938745854876198,0.013187230001031221,0.0016193647759331843,sarima
-Manzanares,ndvi_mean,random_forest_lags,0.08228725089638654,0.0986957404371744,-0.043975546698216225,random_forest_lags
-Manzanares,ndvi_min,random_forest_lags,0.04137488941844259,0.07246940978818676,-0.018367519342750993,random_forest_lags
-Manzanares,precip_max_mm,random_forest_lags,13.48305021211464,18.032943247498775,0.179643279803633,random_forest_lags
-Manzanares,precip_mean_mm,sarima,2.091372696005598,4.000993141720289,-0.8173906550111261,sarima
-Manzanares,precip_mm,sarima,61.68130945192412,114.3982708727336,-22.626224637233268,sarima
-Manzanares,temp_max,seasonal_naive,0.9109677549825755,1.108584835522376,-0.15427135110872556,seasonal_naive
-Manzanares,temp_mean,seasonal_naive,0.5375286752335882,0.6453747269004841,-0.20356888831002543,seasonal_naive
-Manzanares,temp_min,random_forest_lags,0.6746450530472531,0.8743708431537306,-0.11003917095316797,random_forest_lags
-Marmato,et_potencial_mm,seasonal_naive,7.389133171189626,9.125836706000252,-5.7299571172555055,seasonal_naive
-Marmato,et_real_mm,seasonal_naive,10.515319380440351,15.085319835832738,-0.4997535842293888,seasonal_naive
-Marmato,ndvi_max,random_forest_lags,0.023764693045547958,0.028859247228497743,-0.006101288113661669,random_forest_lags
-Marmato,ndvi_mean,seasonal_naive,0.061179183213459574,0.08160478370065183,0.02348827786838589,seasonal_naive
-Marmato,ndvi_min,random_forest_lags,0.08586546319216953,0.11328187499245017,0.0008566130629680097,random_forest_lags
-Marmato,precip_max_mm,seasonal_naive,10.516864908329099,15.13716540468152,-4.4555203903254,seasonal_naive
-Marmato,precip_mean_mm,seasonal_naive,1.835253078219296,3.0632952892861627,-0.19961374354749672,seasonal_naive
-Marmato,precip_mm,seasonal_naive,54.61161132140399,87.9683882227281,-4.782781457485578,seasonal_naive
-Marmato,temp_max,random_forest_lags,1.00182306567111,1.1388113525858568,0.24275411810783035,random_forest_lags
-Marmato,temp_mean,sarima,0.53890605718409,0.6380575170189997,0.10961240650787897,sarima
-Marmato,temp_min,sarima,0.5456618800388404,0.6891798782412679,-0.4481538827674034,sarima
-Marquetalia,et_potencial_mm,sarima,7.1453967064728445,8.624622160945991,-4.829751005309261,sarima
-Marquetalia,et_real_mm,sarima,8.414243489637657,12.275598169440489,-1.4208037483720881,sarima
-Marquetalia,ndvi_max,seasonal_naive,0.015079712100764744,0.01962747752666829,0.0020033738191632677,seasonal_naive
-Marquetalia,ndvi_mean,random_forest_lags,0.06659615511753617,0.09060003409314563,-0.019913079042465785,random_forest_lags
-Marquetalia,ndvi_min,sarima,0.07728437761961326,0.119654669372702,-0.026688572464331355,sarima
-Marquetalia,precip_max_mm,seasonal_naive,15.846353636886555,19.70590139479943,-4.324266579891108,seasonal_naive
-Marquetalia,precip_mean_mm,random_forest_lags,3.1080212178473445,4.814816862315841,-0.7075466375314073,random_forest_lags
-Marquetalia,precip_mm,random_forest_lags,91.27902475911388,134.55227869690583,-11.246357359590432,random_forest_lags
-Marquetalia,temp_max,seasonal_naive,1.0299016276275461,1.3240493889012503,-0.3707401828035012,seasonal_naive
-Marquetalia,temp_mean,random_forest_lags,0.5803781369860503,0.6389023508060268,0.08225856118611861,random_forest_lags
-Marquetalia,temp_min,random_forest_lags,0.6312643041680108,0.8072614950420276,-0.19526719226730227,random_forest_lags
-Marulanda,et_potencial_mm,sarima,5.741850424902772,7.124660379112753,-3.95287418392979,sarima
-Marulanda,et_real_mm,sarima,5.787379032399959,8.299259172741518,1.0064773403829286,sarima
-Marulanda,ndvi_max,seasonal_naive,0.002791081871345046,0.003323450232814194,-0.001050775978407581,seasonal_naive
-Marulanda,ndvi_mean,random_forest_lags,0.07612648084168136,0.10218286621667434,-0.05239614488527896,random_forest_lags
-Marulanda,ndvi_min,seasonal_naive,0.012784086819613134,0.02045164542764335,-0.007809682860998651,seasonal_naive
-Marulanda,precip_max_mm,sarima,12.504568552068857,16.965910450536093,-3.0808868656804314,sarima
-Marulanda,precip_mean_mm,sarima,1.597221422859789,3.0232264284068626,-0.739406870406781,sarima
-Marulanda,precip_mm,sarima,47.17059497630784,86.38080933961254,-20.75788920779161,sarima
-Marulanda,temp_max,random_forest_lags,0.7647790804958567,0.896104128328461,-0.17072137960893252,random_forest_lags
-Marulanda,temp_mean,sarima,0.3872270821321313,0.4984043274041063,-0.20180046889072545,sarima
-Marulanda,temp_min,sarima,0.4976337482672398,0.6200284958685379,-0.13232128406304883,sarima
-Neira,et_potencial_mm,sarima,5.856327953558984,7.278181317487629,-3.871299476533786,sarima
-Neira,et_real_mm,sarima,5.3564371498080305,6.8215605049307415,0.04966022671208137,sarima
-Neira,ndvi_max,sarima,0.005396884181073527,0.015312095202348186,0.0015286795740464799,sarima
-Neira,ndvi_mean,sarima,0.04918389678095972,0.06535487520929262,0.027749222263380426,sarima
-Neira,ndvi_min,random_forest_lags,0.018467200102177124,0.02792385118307924,-0.011211339739300604,random_forest_lags
-Neira,precip_max_mm,sarima,11.689972412469952,15.332874053700756,-3.178195653961939,sarima
-Neira,precip_mean_mm,seasonal_naive,1.5664745757054719,2.60706477992221,-0.3417937593993364,seasonal_naive
-Neira,precip_mm,seasonal_naive,46.62279792330021,74.98664653488616,-9.347378706325157,seasonal_naive
-Neira,temp_max,sarima,0.7463228047233808,0.8933285177764193,-0.05352786443105154,sarima
-Neira,temp_mean,random_forest_lags,0.41912799944176693,0.5588464800976296,-0.28023903233942254,random_forest_lags
-Neira,temp_min,sarima,0.4975738077397669,0.5903553684228483,-0.27411062376288425,sarima
-Norcasia,et_potencial_mm,sarima,8.781862131016899,10.176386491612956,-6.301584512169799,sarima
-Norcasia,et_real_mm,sarima,14.547283359674793,20.9258454281072,-2.3444224175911166,sarima
-Norcasia,ndvi_max,sarima,0.012161888523804574,0.01809513705600045,-0.00010901785517208884,sarima
-Norcasia,ndvi_mean,random_forest_lags,0.04004105240286359,0.06627086662418925,0.0040096012955179745,random_forest_lags
-Norcasia,ndvi_min,seasonal_naive,0.08032496626180835,0.10728302568748767,-0.01681572199730094,seasonal_naive
-Norcasia,precip_max_mm,sarima,14.02192502881843,18.35574155790555,-2.2943165606530376,sarima
-Norcasia,precip_mean_mm,seasonal_naive,2.660400956726215,3.9350541626167206,-0.4542123820092466,seasonal_naive
-Norcasia,precip_mm,seasonal_naive,79.44822570948938,114.63968368262518,-12.611682758539404,seasonal_naive
-Norcasia,temp_max,random_forest_lags,1.3177394896220584,1.591503938870449,0.33906101567822017,random_forest_lags
-Norcasia,temp_mean,random_forest_lags,0.7597409874115331,0.9398350035692807,-0.29447261667783253,random_forest_lags
-Norcasia,temp_min,sarima,0.494636608992109,0.6644964463180552,-0.2476792701893689,sarima
-Palestina,et_potencial_mm,sarima,5.941093848745555,7.402584596568933,-3.880162950793895,sarima
-Palestina,et_real_mm,sarima,5.8502880362598875,7.092898027163197,-2.780017068389984,sarima
-Palestina,ndvi_max,seasonal_naive,0.02165842330184437,0.02662910593441186,-0.0011162280701754522,seasonal_naive
-Palestina,ndvi_mean,seasonal_naive,0.02273923321509646,0.03281259472894937,0.004886710025811181,seasonal_naive
-Palestina,ndvi_min,random_forest_lags,0.06416277902024173,0.08417785919228596,-0.0020361841480300074,random_forest_lags
-Palestina,precip_max_mm,sarima,10.868485802410046,20.926014588491245,-2.583553181698981,sarima
-Palestina,precip_mean_mm,seasonal_naive,2.075544516612809,3.451610369438823,-0.48193983803006957,seasonal_naive
-Palestina,precip_mm,seasonal_naive,61.890373001851984,99.29240512727749,-13.291615421111661,seasonal_naive
-Palestina,temp_max,sarima,1.140676914203805,1.6315240424099575,-0.44380810854991926,sarima
-Palestina,temp_mean,sarima,0.3043094673148843,0.35564113495135563,0.033915297825017114,sarima
-Palestina,temp_min,sarima,0.3454270799709125,0.42169958774859295,-0.11796649412518392,sarima
-Pensilvania,et_potencial_mm,sarima,7.036579502890324,8.525775322338058,-5.380181867575023,sarima
-Pensilvania,et_real_mm,sarima,6.62973589262847,9.82729182944493,0.27459296479602874,sarima
-Pensilvania,ndvi_max,random_forest_lags,0.00108309779979756,0.0014664962613326561,-6.47211305307683e-05,random_forest_lags
-Pensilvania,ndvi_mean,sarima,0.09846185054474407,0.11581469844931241,-0.058988435556878674,sarima
-Pensilvania,ndvi_min,random_forest_lags,0.007925486643678337,0.010760060829350014,-0.002410799705849824,random_forest_lags
-Pensilvania,precip_max_mm,seasonal_naive,12.663799678223652,15.097126790701685,-6.794159854625523,seasonal_naive
-Pensilvania,precip_mean_mm,seasonal_naive,2.298499885345234,3.7083651629094767,-0.6829584503223018,seasonal_naive
-Pensilvania,precip_mm,seasonal_naive,68.3750073388729,107.35245101984586,-19.590843779426763,seasonal_naive
-Pensilvania,temp_max,random_forest_lags,0.9508532098906204,1.1436243868827396,-0.095700307062515,random_forest_lags
-Pensilvania,temp_mean,random_forest_lags,0.4646253592831006,0.5377545218871025,-0.013239036532903233,random_forest_lags
-Pensilvania,temp_min,seasonal_naive,0.6441129950614557,0.8523897777865983,0.04744602058078345,seasonal_naive
-Pácora,et_potencial_mm,seasonal_naive,7.363249229398449,9.099626249840853,-5.8736284195443815,seasonal_naive
-Pácora,et_real_mm,seasonal_naive,9.311170411308579,13.3461655835862,-0.7447356776477433,seasonal_naive
-Pácora,ndvi_max,seasonal_naive,0.004501720647773258,0.005440813049571372,-0.0015535425101214555,seasonal_naive
-Pácora,ndvi_mean,seasonal_naive,0.06498060220293916,0.076742496799092,-0.039460183883291915,seasonal_naive
-Pácora,ndvi_min,random_forest_lags,0.027672014766028187,0.03677733174513423,-0.006514725247216805,random_forest_lags
-Pácora,precip_max_mm,sarima,9.006516596701589,14.792908309043511,-3.2488209743317826,sarima
-Pácora,precip_mean_mm,seasonal_naive,1.7513176066067588,3.1996418860054656,-0.2999638225765112,seasonal_naive
-Pácora,precip_mm,seasonal_naive,51.99998584702298,91.5550927211071,-7.756225349945426,seasonal_naive
-Pácora,temp_max,random_forest_lags,0.8584402346178657,1.0319519345876762,-0.013873704509398347,random_forest_lags
-Pácora,temp_mean,random_forest_lags,0.5769327292512106,0.6790375523012389,-0.05575672002179566,random_forest_lags
-Pácora,temp_min,sarima,0.3856697715818071,0.49836365917069914,-0.24459758529465528,sarima
-Riosucio,et_potencial_mm,sarima,6.205132288572275,7.503208703627415,-4.2813460511850545,sarima
-Riosucio,et_real_mm,sarima,6.6261021803975995,9.258850479929379,1.854897083020691,sarima
-Riosucio,ndvi_max,sarima,0.0028197350082643747,0.0037122192203062703,0.00033566407539973393,sarima
-Riosucio,ndvi_mean,random_forest_lags,0.08107926211682208,0.09341335714911181,-0.054155235995894405,random_forest_lags
-Riosucio,ndvi_min,seasonal_naive,0.024934570400359877,0.04581456925907383,-0.01726045883940621,seasonal_naive
-Riosucio,precip_max_mm,random_forest_lags,9.827340119055139,15.264143527862831,-0.8529527975529715,random_forest_lags
-Riosucio,precip_mean_mm,seasonal_naive,1.9312499851134262,3.0666360100869716,-0.13107604070543838,seasonal_naive
-Riosucio,precip_mm,seasonal_naive,57.57689901314544,88.19726831730667,-2.7742610067109053,seasonal_naive
-Riosucio,temp_max,random_forest_lags,0.8521719545671076,1.0137502256348927,-0.4012118997986923,random_forest_lags
-Riosucio,temp_mean,sarima,0.4259315330788728,0.48489958162939006,0.08695776909785312,sarima
-Riosucio,temp_min,seasonal_naive,0.7067100274694181,0.8564165668071111,-0.7004487229934069,seasonal_naive
-Risaralda,et_potencial_mm,sarima,5.7808294117647065,7.120622405790087,-3.7364839305241726,sarima
-Risaralda,et_real_mm,sarima,5.187689658591504,5.893370367929232,-1.4410890120555677,sarima
-Risaralda,ndvi_max,seasonal_naive,0.011491655420602803,0.016492037746559517,0.0010209851551957066,seasonal_naive
-Risaralda,ndvi_mean,seasonal_naive,0.034086351655874376,0.04154873786647986,-0.0019307187659776597,seasonal_naive
-Risaralda,ndvi_min,seasonal_naive,0.04316447368421053,0.07831560330733328,-0.00774213900134953,seasonal_naive
-Risaralda,precip_max_mm,seasonal_naive,11.985780884106195,18.995283098233436,-4.313434274245269,seasonal_naive
-Risaralda,precip_mean_mm,seasonal_naive,2.0675000485332475,3.2184097224086337,-0.28437364788231145,seasonal_naive
-Risaralda,precip_mm,seasonal_naive,61.76778941450604,92.87428102433401,-7.431661704473844,seasonal_naive
-Risaralda,temp_max,sarima,1.6067470984005492,1.9558029843376883,-0.4200184585970407,sarima
-Risaralda,temp_mean,sarima,0.3316525308274399,0.3855318386611207,-0.027297538409667182,sarima
-Risaralda,temp_min,sarima,0.3662817164963964,0.46358634879427124,-0.13035883052472694,sarima
-Salamina,et_potencial_mm,sarima,6.485025209865502,7.982661324433867,-4.915354585970083,sarima
-Salamina,et_real_mm,seasonal_naive,8.192917405331157,10.618249213986438,-1.494672532062027,seasonal_naive
-Salamina,ndvi_max,random_forest_lags,0.0040813221866384634,0.006169386215103434,0.00015620396926038996,random_forest_lags
-Salamina,ndvi_mean,seasonal_naive,0.06800032089592228,0.07591972697014322,-0.0580226000455114,seasonal_naive
-Salamina,ndvi_min,seasonal_naive,0.018901225820962663,0.03167738951842875,-0.010883097165991904,seasonal_naive
-Salamina,precip_max_mm,sarima,9.593021636306315,12.950496499698795,-2.4312122626751522,sarima
-Salamina,precip_mean_mm,seasonal_naive,1.5551149331800005,2.75180216641945,-0.5325830129609366,seasonal_naive
-Salamina,precip_mm,seasonal_naive,46.133801445906144,78.91085735088211,-15.087590372093864,seasonal_naive
-Salamina,temp_max,random_forest_lags,0.8214674505729023,0.9831664190353794,-0.12837707882952096,random_forest_lags
-Salamina,temp_mean,sarima,0.4319850819310727,0.561960678910199,-0.22663663384302543,sarima
-Salamina,temp_min,seasonal_naive,0.42268117043986553,0.5887756757711403,-0.15631578545373698,seasonal_naive
-Samaná,et_potencial_mm,sarima,8.421911995697739,9.971181391843793,-6.5904958294685585,sarima
-Samaná,et_real_mm,sarima,10.46186230128646,14.771800419644343,-1.2242373761269185,sarima
-Samaná,ndvi_max,sarima,0.0018683424163310565,0.0021716686449612726,-0.0012293040508951979,sarima
-Samaná,ndvi_mean,random_forest_lags,0.06983553030149325,0.08679822002467902,-0.006678735458017188,random_forest_lags
-Samaná,ndvi_min,random_forest_lags,0.05284782373001436,0.06997361520722942,-0.005936570081980131,random_forest_lags
-Samaná,precip_max_mm,seasonal_naive,13.997825886358795,17.96387066638856,-4.648025255026618,seasonal_naive
-Samaná,precip_mean_mm,seasonal_naive,3.140529081118728,4.684437634421704,-0.4514971285259233,seasonal_naive
-Samaná,precip_mm,seasonal_naive,93.61254215190777,135.63734719548987,-12.304429517150933,seasonal_naive
-Samaná,temp_max,random_forest_lags,1.2116512977164589,1.4554100002649872,0.29769853257591955,random_forest_lags
-Samaná,temp_mean,random_forest_lags,0.6347568567168158,0.825573974783779,-0.33987249540572917,random_forest_lags
-Samaná,temp_min,sarima,0.5833113978489599,0.7320772922157861,0.004379831198195055,sarima
-San José,et_potencial_mm,sarima,5.842565537928788,7.1513471631219785,-3.8068027486471294,sarima
-San José,et_real_mm,sarima,5.34671961834984,6.23987757497729,-1.6890013157455108,sarima
-San José,ndvi_max,seasonal_naive,0.024394208277103004,0.03416305854266665,0.010234446693657239,seasonal_naive
-San José,ndvi_mean,seasonal_naive,0.03566888207294628,0.04120597434665073,-0.008317606336210528,seasonal_naive
-San José,ndvi_min,random_forest_lags,0.07585413546991432,0.12738836543779972,-0.008474468232384088,random_forest_lags
-San José,precip_max_mm,seasonal_naive,13.080367242869531,19.905364354003392,-4.705314508655296,seasonal_naive
-San José,precip_mean_mm,seasonal_naive,2.0746504467714186,3.0846348369994896,-0.12468312959186306,seasonal_naive
-San José,precip_mm,seasonal_naive,62.079544080883004,89.3897568500873,-2.659366630802554,seasonal_naive
-San José,temp_max,seasonal_naive,1.5139827182373393,1.8798796762247394,-0.8342263410107491,seasonal_naive
-San José,temp_mean,sarima,0.3535304653802684,0.40187545638881544,0.017611322007270565,sarima
-San José,temp_min,sarima,0.38330694412437644,0.46081490803088454,-0.10717958178281346,sarima
-Supia,et_potencial_mm,sarima,7.09466224877703,8.672696031931954,-5.276554183406533,sarima
-Supia,et_real_mm,seasonal_naive,10.326288728632482,14.339182800868839,-0.9886609050671572,seasonal_naive
-Supia,ndvi_max,seasonal_naive,0.012935739991003158,0.020371825166264342,0.002947435897435876,seasonal_naive
-Supia,ndvi_mean,seasonal_naive,0.05220494620001123,0.06919009924467547,-0.002081160679612649,seasonal_naive
-Supia,ndvi_min,random_forest_lags,0.04148363421016913,0.05903418345448699,0.01032693657569712,random_forest_lags
-Supia,precip_max_mm,seasonal_naive,11.979884490223668,17.624605914776588,-3.4552130171059976,seasonal_naive
-Supia,precip_mean_mm,seasonal_naive,1.978720236334674,3.28148236227475,-0.27543287223760315,seasonal_naive
-Supia,precip_mm,seasonal_naive,58.89278852765976,94.10739775107847,-7.024697869289497,seasonal_naive
-Supia,temp_max,random_forest_lags,0.8799400009776465,0.9842656632167273,0.10624114527006771,random_forest_lags
-Supia,temp_mean,sarima,0.46885664522522646,0.5613228720587033,0.017041276922585034,sarima
-Supia,temp_min,sarima,0.5153344480572309,0.6732452058921699,-0.45305869442556496,sarima
-Victoria,et_potencial_mm,sarima,9.356509084634903,10.818261527069568,-6.9212922536588986,sarima
-Victoria,et_real_mm,random_forest_lags,13.946580067886535,21.61250006905909,0.9116396640836456,random_forest_lags
-Victoria,ndvi_max,seasonal_naive,0.0029717611336032568,0.0044036302333452125,-0.0007515856950067606,seasonal_naive
-Victoria,ndvi_mean,seasonal_naive,0.048275622715642674,0.07048288986095472,-0.0047502697146727686,seasonal_naive
-Victoria,ndvi_min,random_forest_lags,0.06103359499571826,0.08582416963803235,-0.007269266226444656,random_forest_lags
-Victoria,precip_max_mm,random_forest_lags,12.029480237015068,16.676488250445754,-2.9994693144414537,random_forest_lags
-Victoria,precip_mean_mm,random_forest_lags,2.750015438029907,3.6785182092098703,-0.5920300879114502,random_forest_lags
-Victoria,precip_mm,random_forest_lags,81.86071816511017,107.1255513005587,-9.62524724428113,random_forest_lags
-Victoria,temp_max,random_forest_lags,1.4460592029810828,1.7819448339535349,0.40146356677727957,random_forest_lags
-Victoria,temp_mean,random_forest_lags,0.7684761749374902,0.9333944550640436,-0.17414645906892107,random_forest_lags
-Victoria,temp_min,sarima,0.6108806995832599,0.738196850114516,0.20774917946016586,sarima
-Villamaria,et_potencial_mm,sarima,5.235605440615192,6.415246999487959,-3.280388302380248,sarima
-Villamaria,et_real_mm,sarima,4.431004869585179,5.2809726400969685,-2.387212465142255,sarima
-Villamaria,ndvi_max,random_forest_lags,0.0018302380491928432,0.0024546593002260273,0.00011419216493371639,random_forest_lags
-Villamaria,ndvi_mean,sarima,0.13627810101262883,0.1552896680658698,-0.13085437333632274,sarima
-Villamaria,ndvi_min,seasonal_naive,0.06648076923076923,0.06940058467942582,0.06648076923076923,seasonal_naive
-Villamaria,precip_max_mm,sarima,10.888290360438585,13.669909597072365,1.1082572010170177,sarima
-Villamaria,precip_mean_mm,sarima,1.5458450251872324,2.1971225788365167,0.44587166045589116,sarima
-Villamaria,precip_mm,seasonal_naive,41.38332939350373,63.83973282857832,-8.97657416577966,seasonal_naive
-Villamaria,temp_max,seasonal_naive,0.5605832260974771,0.7316903270536819,-0.1845180604456285,seasonal_naive
-Villamaria,temp_mean,random_forest_lags,0.22670216588707645,0.2778666312861522,-0.09227363728669488,random_forest_lags
-Villamaria,temp_min,sarima,0.4590052415656171,0.5993533098677155,-0.08868458819543,sarima
-Viterbo,et_potencial_mm,sarima,6.074351958885664,7.360138246895586,-4.016220741056879,sarima
-Viterbo,et_real_mm,sarima,5.161786519839104,6.11671017043315,-1.231490390364133,sarima
-Viterbo,ndvi_max,random_forest_lags,0.020925398956220826,0.02459838356714953,-0.013186829946544111,random_forest_lags
-Viterbo,ndvi_mean,seasonal_naive,0.017384973130301854,0.024432820584574813,0.002564928651712569,seasonal_naive
-Viterbo,ndvi_min,random_forest_lags,0.07444662771418134,0.08957167498169508,0.007866489292002659,random_forest_lags
-Viterbo,precip_max_mm,seasonal_naive,13.860488539701471,18.393525236701,-3.7649062024210966,seasonal_naive
-Viterbo,precip_mean_mm,seasonal_naive,2.2805335174103476,3.2471921367255896,-0.1386932011386859,seasonal_naive
-Viterbo,precip_mm,seasonal_naive,68.32945568927431,94.46723378435992,-3.102171269445116,seasonal_naive
-Viterbo,temp_max,sarima,0.9156389356805684,1.2424823838460015,-0.3763760785277519,sarima
-Viterbo,temp_mean,sarima,0.39097135918110715,0.4400609772803015,0.07229489583940084,sarima
-Viterbo,temp_min,sarima,0.42850119853712526,0.5415751615819027,-0.2584177125069041,sarima
+municipio,variable,modelo_seleccionado
+Aguadas,precip_mm,seasonal
+Aguadas,temp_mean,rf
+Aguadas,et_real_mm,seasonal
+Aguadas,ndvi_mean,seasonal
+Anserma,precip_mm,seasonal
+Anserma,temp_mean,rf
+Anserma,et_real_mm,seasonal
+Anserma,ndvi_mean,seasonal
+Aranzazu,precip_mm,seasonal
+Aranzazu,temp_mean,seasonal
+Aranzazu,et_real_mm,seasonal
+Aranzazu,ndvi_mean,rf
+Belalcázar,precip_mm,seasonal
+Belalcázar,temp_mean,rf
+Belalcázar,et_real_mm,seasonal
+Belalcázar,ndvi_mean,seasonal
+Chinchiná,precip_mm,seasonal
+Chinchiná,temp_mean,rf
+Chinchiná,et_real_mm,seasonal
+Chinchiná,ndvi_mean,seasonal
+Filadelfia,precip_mm,seasonal
+Filadelfia,temp_mean,seasonal
+Filadelfia,et_real_mm,seasonal
+Filadelfia,ndvi_mean,seasonal
+La Dorada,precip_mm,seasonal
+La Dorada,temp_mean,seasonal
+La Dorada,et_real_mm,seasonal
+La Dorada,ndvi_mean,seasonal
+La Merced,precip_mm,seasonal
+La Merced,temp_mean,seasonal
+La Merced,et_real_mm,seasonal
+La Merced,ndvi_mean,seasonal
+Manizales,precip_mm,seasonal
+Manizales,temp_mean,rf
+Manizales,et_real_mm,seasonal
+Manizales,ndvi_mean,seasonal
+Manzanares,precip_mm,seasonal
+Manzanares,temp_mean,seasonal
+Manzanares,et_real_mm,seasonal
+Manzanares,ndvi_mean,seasonal
+Marmato,precip_mm,seasonal
+Marmato,temp_mean,seasonal
+Marmato,et_real_mm,seasonal
+Marmato,ndvi_mean,seasonal
+Marquetalia,precip_mm,seasonal
+Marquetalia,temp_mean,rf
+Marquetalia,et_real_mm,seasonal
+Marquetalia,ndvi_mean,seasonal
+Marulanda,precip_mm,seasonal
+Marulanda,temp_mean,seasonal
+Marulanda,et_real_mm,seasonal
+Marulanda,ndvi_mean,seasonal
+Neira,precip_mm,seasonal
+Neira,temp_mean,rf
+Neira,et_real_mm,seasonal
+Neira,ndvi_mean,seasonal
+Norcasia,precip_mm,seasonal
+Norcasia,temp_mean,seasonal
+Norcasia,et_real_mm,seasonal
+Norcasia,ndvi_mean,seasonal
+Palestina,precip_mm,seasonal
+Palestina,temp_mean,rf
+Palestina,et_real_mm,seasonal
+Palestina,ndvi_mean,seasonal
+Pensilvania,precip_mm,seasonal
+Pensilvania,temp_mean,seasonal
+Pensilvania,et_real_mm,rf
+Pensilvania,ndvi_mean,seasonal
+Pácora,precip_mm,seasonal
+Pácora,temp_mean,seasonal
+Pácora,et_real_mm,seasonal
+Pácora,ndvi_mean,seasonal
+Riosucio,precip_mm,rf
+Riosucio,temp_mean,rf
+Riosucio,et_real_mm,seasonal
+Riosucio,ndvi_mean,seasonal
+Risaralda,precip_mm,seasonal
+Risaralda,temp_mean,seasonal
+Risaralda,et_real_mm,seasonal
+Risaralda,ndvi_mean,seasonal
+Salamina,precip_mm,seasonal
+Salamina,temp_mean,seasonal
+Salamina,et_real_mm,seasonal
+Salamina,ndvi_mean,seasonal
+Samaná,precip_mm,seasonal
+Samaná,temp_mean,seasonal
+Samaná,et_real_mm,seasonal
+Samaná,ndvi_mean,seasonal
+San José,precip_mm,seasonal
+San José,temp_mean,seasonal
+San José,et_real_mm,seasonal
+San José,ndvi_mean,seasonal
+Supia,precip_mm,rf
+Supia,temp_mean,rf
+Supia,et_real_mm,seasonal
+Supia,ndvi_mean,seasonal
+Victoria,precip_mm,seasonal
+Victoria,temp_mean,seasonal
+Victoria,et_real_mm,seasonal
+Victoria,ndvi_mean,seasonal
+Villamaria,precip_mm,seasonal
+Villamaria,temp_mean,rf
+Villamaria,et_real_mm,seasonal
+Villamaria,ndvi_mean,seasonal
+Viterbo,precip_mm,seasonal
+Viterbo,temp_mean,seasonal
+Viterbo,et_real_mm,seasonal
+Viterbo,ndvi_mean,seasonal
