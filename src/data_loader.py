@@ -34,7 +34,7 @@ def load_data():
     coef_map = coeficientes.set_index("variable")
 
     # PARÁMETROS
-    parametros_dict = parametros.set_index("parametro")["valor"].to_dict()
+    parametros_dict = parametros.iloc[0].to_dict()
 
     # PRECIOS
     precios["anio"] = precios["anio"].astype(int)
