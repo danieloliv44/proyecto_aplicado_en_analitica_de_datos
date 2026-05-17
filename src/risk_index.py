@@ -2,7 +2,6 @@ import numpy as np
 import pandas as pd
 
 # CÁLCULO DEL ÍNDICE CLIMÁTICO
-
 def calcular_indice_para_fila(
     row,
     variables_indice,
@@ -21,7 +20,7 @@ def calcular_indice_para_fila(
     X_scaled = (X - media) / std
     X_scaled = X_scaled.replace([np.inf, -np.inf], np.nan).fillna(0)
 
-    # 🔥 IMPORTANTE: columnas como string
+    # Columnas como string
     pesos = coef_map[str(c)].loc[variables_indice]
 
     indice_raw = (X_scaled * pesos).sum()
@@ -62,13 +61,14 @@ def clasificar_riesgo(indice, trigger, umbral_medio):
 
 # PROBABILIDAD DE PÉRDIDA
 def obtener_probabilidad_perdida(indice, df_hist_indice):
-    # Distancia entre índices
-    df_hist_indice["dist"] = np.abs(
-        df_hist_indice["indice_cluster"] - indice
-    )
+    
+    df = df_hist_indice.copy()
 
-    # Tomar vecinos más cercanos
-    vecinos = df_hist_indice.nsmallest(50, "dist")
+    # Distancia
+    df["dist"] = np.abs(df["indice_cluster"] - indice)
+
+    # Vecinos más cercanos
+    vecinos = df.nsmallest(50, "dist")
 
     prob = vecinos["evento_perdida_global"].mean()
 
