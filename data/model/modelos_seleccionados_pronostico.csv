@@ -1,0 +1,109 @@
+municipio,variable,modelo_seleccionado
+Aguadas,precip_mm,seasonal
+Aguadas,temp_mean,rf
+Aguadas,et_real_mm,seasonal
+Aguadas,ndvi_mean,seasonal
+Anserma,precip_mm,seasonal
+Anserma,temp_mean,rf
+Anserma,et_real_mm,seasonal
+Anserma,ndvi_mean,seasonal
+Aranzazu,precip_mm,seasonal
+Aranzazu,temp_mean,seasonal
+Aranzazu,et_real_mm,seasonal
+Aranzazu,ndvi_mean,rf
+Belalcázar,precip_mm,seasonal
+Belalcázar,temp_mean,rf
+Belalcázar,et_real_mm,seasonal
+Belalcázar,ndvi_mean,seasonal
+Chinchiná,precip_mm,seasonal
+Chinchiná,temp_mean,rf
+Chinchiná,et_real_mm,seasonal
+Chinchiná,ndvi_mean,seasonal
+Filadelfia,precip_mm,seasonal
+Filadelfia,temp_mean,seasonal
+Filadelfia,et_real_mm,seasonal
+Filadelfia,ndvi_mean,seasonal
+La Dorada,precip_mm,seasonal
+La Dorada,temp_mean,seasonal
+La Dorada,et_real_mm,seasonal
+La Dorada,ndvi_mean,seasonal
+La Merced,precip_mm,seasonal
+La Merced,temp_mean,seasonal
+La Merced,et_real_mm,seasonal
+La Merced,ndvi_mean,seasonal
+Manizales,precip_mm,seasonal
+Manizales,temp_mean,rf
+Manizales,et_real_mm,seasonal
+Manizales,ndvi_mean,seasonal
+Manzanares,precip_mm,seasonal
+Manzanares,temp_mean,seasonal
+Manzanares,et_real_mm,seasonal
+Manzanares,ndvi_mean,seasonal
+Marmato,precip_mm,seasonal
+Marmato,temp_mean,seasonal
+Marmato,et_real_mm,seasonal
+Marmato,ndvi_mean,seasonal
+Marquetalia,precip_mm,seasonal
+Marquetalia,temp_mean,rf
+Marquetalia,et_real_mm,seasonal
+Marquetalia,ndvi_mean,seasonal
+Marulanda,precip_mm,seasonal
+Marulanda,temp_mean,seasonal
+Marulanda,et_real_mm,seasonal
+Marulanda,ndvi_mean,seasonal
+Neira,precip_mm,seasonal
+Neira,temp_mean,rf
+Neira,et_real_mm,seasonal
+Neira,ndvi_mean,seasonal
+Norcasia,precip_mm,seasonal
+Norcasia,temp_mean,seasonal
+Norcasia,et_real_mm,seasonal
+Norcasia,ndvi_mean,seasonal
+Palestina,precip_mm,seasonal
+Palestina,temp_mean,rf
+Palestina,et_real_mm,seasonal
+Palestina,ndvi_mean,seasonal
+Pensilvania,precip_mm,seasonal
+Pensilvania,temp_mean,seasonal
+Pensilvania,et_real_mm,rf
+Pensilvania,ndvi_mean,seasonal
+Pácora,precip_mm,seasonal
+Pácora,temp_mean,seasonal
+Pácora,et_real_mm,seasonal
+Pácora,ndvi_mean,seasonal
+Riosucio,precip_mm,rf
+Riosucio,temp_mean,rf
+Riosucio,et_real_mm,seasonal
+Riosucio,ndvi_mean,seasonal
+Risaralda,precip_mm,seasonal
+Risaralda,temp_mean,seasonal
+Risaralda,et_real_mm,seasonal
+Risaralda,ndvi_mean,seasonal
+Salamina,precip_mm,seasonal
+Salamina,temp_mean,seasonal
+Salamina,et_real_mm,seasonal
+Salamina,ndvi_mean,seasonal
+Samaná,precip_mm,seasonal
+Samaná,temp_mean,seasonal
+Samaná,et_real_mm,seasonal
+Samaná,ndvi_mean,seasonal
+San José,precip_mm,seasonal
+San José,temp_mean,seasonal
+San José,et_real_mm,seasonal
+San José,ndvi_mean,seasonal
+Supia,precip_mm,rf
+Supia,temp_mean,rf
+Supia,et_real_mm,seasonal
+Supia,ndvi_mean,seasonal
+Victoria,precip_mm,seasonal
+Victoria,temp_mean,seasonal
+Victoria,et_real_mm,seasonal
+Victoria,ndvi_mean,seasonal
+Villamaria,precip_mm,seasonal
+Villamaria,temp_mean,rf
+Villamaria,et_real_mm,seasonal
+Villamaria,ndvi_mean,seasonal
+Viterbo,precip_mm,seasonal
+Viterbo,temp_mean,seasonal
+Viterbo,et_real_mm,seasonal
+Viterbo,ndvi_mean,seasonal

@@ -1,0 +1,2 @@
+n_observaciones,n_municipios,anio_min,anio_max,prima_pura_total,prima_comercial_total,indemnizacion_total,resultado_puro_total,resultado_comercial_total,loss_ratio_puro,loss_ratio_comercial,payout_promedio,tasa_evento_perdida
+450,25,2007,2024,1383436025.0037575,1798466832.5048847,1320206220.990196,63229804.0135615,478260611.5146891,0.9542951008425635,0.7340731544942797,0.2431205744640661,0.3377777777777778
