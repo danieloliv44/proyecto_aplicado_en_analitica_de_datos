@@ -11,3 +11,10 @@ Repositorio base del proyecto .
 * `reports/`: resultados e informes
 * `deploy/`: archivos para despliegue
 
+
+
+run server: 
+
+uvicorn src.api:app --reload http://localhost:8000
+streamlit run dashboard/app.py. http://localhost:8501)
+

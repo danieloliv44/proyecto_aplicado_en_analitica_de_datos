@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  backend:
+    build: .
+    container_name: seguro_agricola_backend
+    ports:
+      - "8000:8000"
+    environment:
+      - PYTHONUNBUFFERED=1
+    command: uvicorn src.api:app --host 0.0.0.0 --port 8000
+    volumes:
+      - ./data:/app/data  # Para acceso a archivos de datos en tiempo real
+
+  frontend:
+    build: .
+    container_name: seguro_agricola_frontend
+    ports:
+      - "8501:8501"
+    environment:
+      - PYTHONUNBUFFERED=1
+    command: streamlit run dashboard/app.py --server.port=8501 --server.address=0.0.0.0
+    volumes:
+      - ./data:/app/data
+    depends_on:
+      - backend
