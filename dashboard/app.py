@@ -5,8 +5,6 @@ import pandas as pd
 import plotly.graph_objects as go
 import streamlit as st
 
-
-# ============================================================
 # CONFIGURACIÓN GENERAL
 # ============================================================
 
@@ -23,8 +21,6 @@ st.set_page_config(
     layout="wide",
 )
 
-
-# ============================================================
 # ESTILOS
 # ============================================================
 
@@ -49,8 +45,9 @@ st.markdown(
     }
 
     .subtitle {
-        font-size: 16px;
-        color: #667085;
+        font-size: 20px;
+        font-weight: 800;
+        color: #0f172a;
         margin-bottom: 22px;
     }
 
@@ -64,17 +61,18 @@ st.markdown(
 
     .card {
         background-color: white;
+        color: #111827;
         border-radius: 18px;
         padding: 20px 22px;
         box-shadow: 0 6px 18px rgba(15,23,42,0.07);
-        border: 1px solid #e9edf5;
+        border: 1px solid #3c3d40;
         min-height: 128px;
     }
 
     .kpi-label {
-        color: #3d3b39;
+        color: #111827;
         font-size: 14px;
-        font-weight: 600;
+        font-weight: 700;
         margin-bottom: 6px;
     }
 
@@ -86,7 +84,7 @@ st.markdown(
 
     .kpi-small {
         font-size: 12.5px;
-        color: #3d3b39;
+        color: #4b5563;
     }
 
     .risk-high {
@@ -117,7 +115,8 @@ st.markdown(
     }
 
     .interpretation {
-        background-color: grey;
+        background-color: #f3f4f6;
+        color: #111827;
         border-radius: 18px;
         padding: 22px;
         border-left: 6px solid #0e7490;
@@ -142,8 +141,6 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-
-# ============================================================
 # FUNCIONES AUXILIARES
 # ============================================================
 
@@ -253,13 +250,22 @@ def build_financial_chart(result):
     )
 
     fig.update_layout(
-        height=285,
-        margin=dict(l=10, r=10, t=20, b=10),
-        xaxis_title="USD",
-        yaxis_title="",
-        plot_bgcolor="white",
-        paper_bgcolor="white",
-        font=dict(size=13),
+            height=285,
+            margin=dict(l=10, r=10, t=20, b=10),
+            xaxis_title="USD",
+            yaxis_title="",
+            plot_bgcolor="white",
+            paper_bgcolor="white",
+            font=dict(size=13, color="#1f2937"),
+    )
+
+    fig.update_xaxes(
+            tickfont=dict(color="#1f2937", size=13),
+            title_font=dict(color="#1f2937", size=14),
+    )
+
+    fig.update_yaxes(
+            tickfont=dict(color="#1f2937", size=13),
     )
 
     return fig
@@ -270,28 +276,37 @@ def build_risk_gauge(result):
     nivel = get_value(result, "nivel_riesgo", default="Bajo")
 
     fig = go.Figure(
-        go.Indicator(
-            mode="gauge+number",
-            value=prob,
-            number={"suffix": "%", "font": {"size": 34}},
-            title={"text": "Probabilidad de pérdida"},
-            gauge={
-                "axis": {"range": [0, 100]},
-                "bar": {"color": risk_color(nivel)},
-                "steps": [
-                    {"range": [0, 35], "color": "#dcfce7"},
-                    {"range": [35, 50], "color": "#fef3c7"},
-                    {"range": [50, 100], "color": "#fee2e2"},
-                ],
+    go.Indicator(
+        mode="gauge+number",
+        value=prob,
+        number={
+            "suffix": "%",
+            "font": {"size": 34, "color": "#f97316"},
+        },
+        title={
+            "text": "Probabilidad de pérdida",
+            "font": {"size": 14, "color": "#1f2937"},
+        },
+        gauge={
+            "axis": {
+                "range": [0, 100],
+                "tickfont": {"color": "#1f2937", "size": 13},
             },
-        )
+            "bar": {"color": risk_color(nivel)},
+            "steps": [
+                {"range": [0, 35], "color": "#dcfce7"},
+                {"range": [35, 50], "color": "#fef3c7"},
+                {"range": [50, 100], "color": "#fee2e2"},
+            ],
+        },
     )
+)
 
     fig.update_layout(
-        height=285,
-        margin=dict(l=20, r=20, t=45, b=20),
-        paper_bgcolor="white",
-        font=dict(size=13),
+            height=285,
+            margin=dict(l=20, r=20, t=45, b=20),
+            paper_bgcolor="white",
+            font=dict(size=13, color="#1f2937"),
     )
 
     return fig
@@ -342,24 +357,30 @@ def build_index_reference_chart(result):
             marker=dict(size=22, color=risk_color(nivel)),
             text=[number(indice, 2)],
             textposition="top center",
+            textfont=dict(color="#1f2937", size=13),
             name="Índice seleccionado",
         )
     )
 
     fig.update_layout(
-        height=220,
-        margin=dict(l=15, r=15, t=25, b=25),
-        xaxis=dict(title="Índice de riesgo", range=[-3, 3]),
-        yaxis=dict(visible=False, range=[0, 1]),
-        plot_bgcolor="white",
-        paper_bgcolor="white",
-        showlegend=False,
+            height=220,
+            margin=dict(l=15, r=15, t=25, b=25),
+            xaxis=dict(
+            title="Índice de riesgo",
+            range=[-3, 3],
+            tickfont=dict(color="#1f2937", size=13),
+            title_font=dict(color="#1f2937", size=14),
+        ),
+            yaxis=dict(visible=False, range=[0, 1]),
+            plot_bgcolor="white",
+            paper_bgcolor="white",
+            showlegend=False,
+            font=dict(size=13, color="#1f2937"),
     )
 
     return fig
 
 
-# ============================================================
 # ENCABEZADO
 # ============================================================
 
@@ -370,8 +391,7 @@ st.markdown(
 )
 
 
-# ============================================================
-# BLOQUE 1 — PARÁMETROS
+# PARÁMETROS
 # ============================================================
 
 st.markdown('<div class="section-title">1. Parámetros de cotización</div>', unsafe_allow_html=True)
@@ -415,7 +435,6 @@ with col4:
     st.button("Simular", width="stretch")
 
 
-# ============================================================
 # EJECUTAR COTIZACIÓN
 # ============================================================
 
@@ -430,7 +449,6 @@ except Exception as e:
     st.stop()
 
 
-# ============================================================
 # BLOQUE 2 — RESULTADO FINANCIERO
 # ============================================================
 
@@ -555,7 +573,6 @@ with row2[3]:
     )
 
 
-# ============================================================
 # BLOQUE 3 — EXPLICACIÓN DEL RIESGO Y SOPORTE VISUAL
 # ============================================================
 
@@ -595,7 +612,6 @@ with right:
     st.plotly_chart(build_risk_gauge(result), width="stretch")
 
 
-# ============================================================
 # DETALLE DESCARGABLE
 # ============================================================
 
