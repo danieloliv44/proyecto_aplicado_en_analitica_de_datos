@@ -32,7 +32,7 @@ st.markdown(
     """
     <style>
     .stApp {
-        background-color: #f5f7fb;
+        background-color: #bd9c73;
     }
 
     .block-container {
@@ -72,7 +72,7 @@ st.markdown(
     }
 
     .kpi-label {
-        color: #667085;
+        color: #3d3b39;
         font-size: 14px;
         font-weight: 600;
         margin-bottom: 6px;
@@ -86,7 +86,7 @@ st.markdown(
 
     .kpi-small {
         font-size: 12.5px;
-        color: #667085;
+        color: #3d3b39;
     }
 
     .risk-high {
@@ -117,7 +117,7 @@ st.markdown(
     }
 
     .interpretation {
-        background-color: white;
+        background-color: grey;
         border-radius: 18px;
         padding: 22px;
         border-left: 6px solid #0e7490;
@@ -130,7 +130,7 @@ st.markdown(
         border: 1px solid #bfdbfe;
         border-radius: 14px;
         padding: 14px 16px;
-        color: #1e3a8a;
+        color: black;
         font-size: 14px;
     }
 
